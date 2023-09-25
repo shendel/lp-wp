@@ -6,7 +6,7 @@
 
 </head>
 <body <?php body_class() ?>>
-<div>HOME</div>
+<?php include ONOUT_LPWP_TEMPLATE_DIR . DIRECTORY_SEPARATOR . "launchpad_loader.php"; ?>
 <?php wp_footer(); ?>
 </body>
 </html>
